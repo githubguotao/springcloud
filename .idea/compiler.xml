@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="j1808_sc_erueka_consumer_one" />
+        <module name="j1808_sc_eureka_consoumer" />
+        <module name="j1808_sc_eureka_feign_hystrix" />
+        <module name="j1808_sc_eureka_provide" />
+        <module name="j1808_sc_eureka_provide_one" />
+        <module name="j1808_sc_eureka_ribbo" />
+        <module name="j1808_sc_eureka_server" />
+        <module name="j1808_sc_eureka_zull" />
+        <module name="j1808springcloud" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="j1808_sc_erueka_consumer_one" options="-parameters" />
+      <module name="j1808_sc_eureka_consoumer" options="-parameters" />
+      <module name="j1808_sc_eureka_feign_hystrix" options="-parameters" />
+      <module name="j1808_sc_eureka_provide" options="-parameters" />
+      <module name="j1808_sc_eureka_provide_one" options="-parameters" />
+      <module name="j1808_sc_eureka_ribbo" options="-parameters" />
+      <module name="j1808_sc_eureka_server" options="-parameters" />
+      <module name="j1808_sc_eureka_zull" options="-parameters" />
+    </option>
+  </component>
+</project>
